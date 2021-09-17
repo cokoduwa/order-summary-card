@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+@media (max-width: 375px) {
+  body {
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 1440px) {
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.hero {
+  width: 100%;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.main {
+  width: 400px;
+  margin: auto;
+  background-color: white;
+  border-radius: 1.5em;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 5em;
+}
+
+img {
+  border-radius: 1.5em 1.5em 0em 0em;
+}
+
+.description {
+  padding: 2em;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.explanation {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.plan1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(225, 100%, 98%);
+  margin-top: 2em;
+  border-radius: 1em;
+}
+
+.plan > * {
+  flex: 100%;
+  margin: auto;
+  padding: 0em 1em;
+}
+
+button {
+  width: 100%;
+  align-self: center;
+  margin-top: 2em;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  border-style: none;
+  border-radius: 0.9em;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.payment:hover {
+  color: black;
+  background-color: white;
+}
+
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 0 10px 20px -2px rgba(0, 0, 0, 0.3);
+  padding: 1.2em;
+}
+
+.cancel {
+  background-color: white;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 1.2em;
+}
+.cancel:hover {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+  font-size: 13px;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  text-decoration-line: underline;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.change:hover {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5em;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
